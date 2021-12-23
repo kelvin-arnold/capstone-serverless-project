@@ -1,6 +1,6 @@
-import { Posts } from "./postsAccess";
-import { AttachmentUtils } from "./attachmentUtils";
-import { PostItem, PostUpdate } from "../models/Post";
+import { Posts } from "./../dataLayer/postsAccess";
+import { AttachmentUtils } from "./../dataLayer/attachmentUtils";
+import { PostItem, PostUpdate } from "../../models/Post";
 import { v4 as uuidv4 } from "uuid";
 
 const newPosts = new Posts();

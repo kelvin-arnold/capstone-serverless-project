@@ -1,8 +1,8 @@
 import * as aws from "aws-sdk";
 import * as xray from "aws-xray-sdk";
 import { DocumentClient } from "aws-sdk/clients/dynamodb";
-import { PostItem, PostUpdate } from "../models/Post";
-import { createLogger } from "../utils/logger";
+import { PostItem, PostUpdate } from "../../models/Post";
+import { createLogger } from "../../utils/logger";
 
 const logger = createLogger("PostsAccess");
 

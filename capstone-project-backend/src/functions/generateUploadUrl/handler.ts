@@ -4,7 +4,7 @@ import {
   generateUploadUrl,
   postExists,
   updatePostImage,
-} from "../../helpers/posts";
+} from "../../helpers/businessLogic/posts";
 import { getUserId } from "../utils";
 import { createLogger } from "../../utils/logger";
 

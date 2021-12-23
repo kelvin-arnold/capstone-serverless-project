@@ -1,6 +1,6 @@
 import { APIGatewayProxyEvent, APIGatewayProxyResult } from "aws-lambda";
 import { middyfy } from "@libs/lambda";
-import { getPostsForUser } from "../../helpers/posts";
+import { getPostsForUser } from "../../helpers/businessLogic/posts";
 import { getUserId } from "../utils";
 
 const handler = async (

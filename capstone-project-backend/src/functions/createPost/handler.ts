@@ -2,7 +2,10 @@ import { APIGatewayProxyEvent, APIGatewayProxyResult } from "aws-lambda";
 import { middyfy } from "@libs/lambda";
 import { CreatePostRequest } from "../../requests/CreatePostRequest";
 import { getUserId } from "../utils";
-import { createPost, generateUploadUrl } from "../../helpers/posts";
+import {
+  createPost,
+  generateUploadUrl,
+} from "../../helpers/businessLogic/posts";
 
 const handler = async (
   event: APIGatewayProxyEvent

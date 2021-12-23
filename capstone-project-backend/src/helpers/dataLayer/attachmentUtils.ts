@@ -1,6 +1,6 @@
 import * as aws from "aws-sdk";
 import * as xray from "aws-xray-sdk";
-import { createLogger } from "../utils/logger";
+import { createLogger } from "../../utils/logger";
 
 const logger = createLogger("PostsAccess");
 const xray_aws = xray.captureAWS(aws);
