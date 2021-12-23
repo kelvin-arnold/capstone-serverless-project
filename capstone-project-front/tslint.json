@@ -1,0 +1,14 @@
+{
+	"extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+	"rulesDirectory": ["tslint-plugin-prettier"],
+	"rules": {
+		"prettier": true,
+		"interface-name": false,
+		"jsx-no-lambda": false,
+		"ordered-imports": false,
+		"jsx-boolean-value": false,
+		"no-empty": false,
+		"no-console": false,
+		"indent": [true, "tabs", 2]
+	}
+}
